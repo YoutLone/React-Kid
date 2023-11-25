@@ -1,3 +1,13 @@
+.wraper {
+    border: 2px solid rgb(109, 8, 8);
+    padding: 10px;
+    background-color: bisque;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 2px 5px 5px rgb(109, 8, 8);
+}
+
 .count {
     display: flex;
     align-items: center;
@@ -18,4 +28,5 @@
 .wraper-count button {
     font-size: 1.1rem;
     font-weight: bold;
+    cursor: pointer;
 }
