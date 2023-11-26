@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(209, 240, 175);
+}
+
+.container {
+    display: grid;
+    margin: 4rem auto;
+    width: 90vw;
+    max-width: 1160px;
+    gap: 2rem;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.user-container {
+    display: grid;
+    list-style-type: none;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.user-container li {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: rgb(0,0,0,0.3) 0px 3px 8px;
+  }
+
+img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+
+  h4 {
+    text-transform: capitalize;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .user-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }

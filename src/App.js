@@ -1,9 +1,9 @@
 import './App.css';
-import Count from './components/Count';
+import Users from './components/Users/Users';
 
 function App() {
   return (
-    <Count />
+    <Users />
   );
 }
 
